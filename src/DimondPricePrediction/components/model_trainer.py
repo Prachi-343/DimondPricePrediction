@@ -57,7 +57,7 @@ class ModelTrainer:
             
         except Exception as e:
             logging.info("error in model training ")
-        raise customexception(e,sys)
+            raise customexception(e,sys)
     
         
         
