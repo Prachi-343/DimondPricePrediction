@@ -8,7 +8,7 @@ on:
 env:
   AWS_REGION: us-east-1               
   ECR_REPOSITORY: diamondpriceprediction
-         # set this to your Amazon ECR repository name
+        
 
 permissions:
   contents: read
