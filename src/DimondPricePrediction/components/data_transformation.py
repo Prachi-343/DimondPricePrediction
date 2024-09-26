@@ -40,6 +40,7 @@ class DataTransformation:
                 steps=[
                     ("impute",SimpleImputer()),
                     ("scaler",StandardScaler())
+                    
                 ]
             )
         
@@ -59,7 +60,7 @@ class DataTransformation:
             )
         
             return preprocessor
-        
+    
         except Exception as e:
             logging.info("Failed to get data transformation")
             raise customexception( e,sys)

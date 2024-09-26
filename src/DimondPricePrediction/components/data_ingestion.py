@@ -48,8 +48,6 @@ class DataIngestion:
         except Exception as e:
             logging.info("Error occur in dataIngestion")
             raise customexception(e,sys)
-        
-        
     
 obj=DataIngestion()
 obj.initate_data_ingestion()
